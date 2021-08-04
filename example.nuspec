@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Example</id>
+    <title>Example</title>
+    <version>0.0.0.0</version>
+    <authors>Ben</authors>
+    <owners>Ben</owners>
+    <projectUrl>http://example.com</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Example</description>
+    <tags>example</tags>
+  </metadata>
+  <files>
+        <file src="some/subdirectory/**" target="tools" />
+  </files>
+</package>
